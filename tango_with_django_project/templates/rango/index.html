@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+
+	<head>
+		<title>Peaches</title>
+	</head>
+	
+	<body>
+		<h1>Peaches says...</h1>
+		<div>
+			Hey there Bunny! <br />
+			<strong>{{ boldmessage }}</strong><br />
+		</div>
+		
+		<div>
+			<a href="/rango/about/">Aboot</a>
+			<img src="{% static "images/bunnyanddino.jpg" %}"
+				alt="Pic of a bunny and a dino" />
+		</div>
+	</body>
+	
+</html>
